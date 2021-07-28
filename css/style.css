@@ -365,12 +365,12 @@ button:focus {
 .top-header .navbar .navbar-collapse ul li a {
     text-transform: uppercase;
     font-size: 13px;
-    margin: 2px 5px 0px;
+    margin: 5px 5px 0px;
     position: relative;
     font-weight: 400;
     overflow: hidden;
     color: rgb(240, 240, 243);
-    margin-bottom: -6px;
+    padding-bottom: -10em;
 }
 
 a.navbar-brand {
