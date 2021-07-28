@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Safety-Solution</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header class="top-header">
+    <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logosafety1.png" alt="image"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li><a class="nav-link" href="about.html">Quienes Somos </a></li>
+                    <li><a class="nav-link" href="services.html">Nuestros Servicios</a></li>
+                    <li><a class="nav-link" href="app.html">App Safety CR</a></li>
+                    <li><a class="nav-link" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<body>
+    <nav class="navbar header">
+        <div class="navbar-brand">
+            <img src="" height="50" class="d-inline-block align-top text-primary" alt="">
+        </div>
+    </nav>
+    <div class="loading-container">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="app">
+            <div class="row">
+                <div class="title">
+                    <h3>Registro de entrada </h3>
+                </div>
+                <div class="control">
+                    <input class="form-control ds-input" type="text" id="codigo">
+                    <div class="btn btn-primary" onclick="onClick()">Registrar</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img id="user-image" src="https://image.flaticon.com/icons/svg/21/21104.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Nombre:</b> <span id="name"></span>
+                            </p>
+                            <p class="card-text">
+                                <b>Contratista:</b> <span id="company"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body log-type">
+                            <h3 class="card-title" id="log-text">Salida</h3>
+                            <i class="fa fa-sign-out" id="log-icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Fecha</b>
+                            </p>
+                            <p class="card-text">
+                                <span id="date"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card auth-status unauthorized">
+                        <div class="card-body">
+                            <p class="card-text"> Estatus de Registro </p>
+                            <p class="card-text" id="auth-text"> Desautorizado </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body location-body">
+                            <h4><b>Frente de trabajo</b></h4>
+                            <p class="card-text" id="location-text"></p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <b>Nombre de Proyecto</b>
+                                <br>
+                                <span> Nombre:</span>
+                            </li>
+                            <li class="list-group-item">
+                                <b>Inspecciones realizadas</b>
+                                <br>
+                                <span> Inspeccion uno</span>
+                                <br>
+                                <span> Inspeccion Dos</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>
