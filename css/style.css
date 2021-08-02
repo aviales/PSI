@@ -357,7 +357,7 @@
             .top-header .navbar .navbar-collapse ul li a {
                 text-transform: uppercase;
                 font-size: 13px;
-                margin: 30px 5px 0px;
+                margin: 0px 2px 0px;
                 position: relative;
                 font-weight: 400;
                 overflow: hidden;
@@ -379,7 +379,7 @@
             .top-header .navbar .navbar-collapse ul li a.active {
                 color: #e38c32;
                 font-weight: bold;
-                margin: 30px 5px 0px;
+                margin: 0px 0px 0px;
                 padding-top: -10px;
             }
             
@@ -390,14 +390,14 @@
             }
             
             .search_icon.nav-link img {
-                width: 25px;
+                width: 15px;
             }
             /* se cambio los enlaces a mas arriba con el 17px */
             
             .top-header .navbar .navbar-collapse ul li {
-                color: rgb(31, 30, 30);
-                margin: -11px 15px 0px 100px;
-                padding-bottom: -40px;
+                color: #e38c32;
+                margin: 30px 0px 0px 100px;
+                padding-bottom: 8px;
             }
             /* este es cuando se baja */
             
@@ -419,7 +419,7 @@
             .navbar-toggler {
                 border: 2px solid rgb(7, 17, 85);
                 border-radius: 0;
-                margin: 15px 15px;
+                margin: 45px 15px;
                 padding: 8px 8px;
                 -webkit-transition: all 0.2s linear;
                 -moz-transition: all 0.2s linear;
